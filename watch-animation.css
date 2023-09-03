@@ -1,0 +1,202 @@
+.container{
+    padding: 20px 60px;
+    color: black;
+    font-weight: 600;
+}
+.logo{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.navbar-nav{
+    
+    font-weight: 600;
+    font-size: .9rem;
+    text-transform: uppercase;
+    
+
+}
+.navbar-nav a{
+    margin-left: 60px;
+    color: black;
+}
+.line1{
+    height: 100vh;
+    width: 15px;
+    background-color: #FF3131;
+    left: 23%;
+    position: fixed;
+}
+.line2{
+    height: 100vh;
+    width: 25px;
+    background-color: #183D79;
+    left: 25%;
+    position: fixed;
+}
+.img{
+    position: relative;
+    
+    top: -70px;
+    left: 8.5%;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.img img{
+    width: 450px;
+}
+.main-txt{
+    margin-left: 80px;
+    margin-top: 200px;
+    
+}
+.main-txt h1{
+    font-size:5.5rem;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    line-height: 45px;
+}
+.main-txt h4{
+    letter-spacing: 10px;
+    color: #808080;
+    font-weight: 350;
+}
+.btn{
+    margin-left: 160px;
+    margin-top:50px;
+    background-color: #FF3131;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px 17px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: #000000;
+    color: #fff ;
+}
+
+.year{
+    font-weight: 700;
+    margin-left: 150px;
+    margin-top: -100px;
+    color: #000000;
+}
+.icon{
+    width: 30px;
+    line-height: 40px;
+    margin-top: -100px;
+
+  
+}
+.icon img{
+    padding: 20px 0px;
+    
+}
+.search-m{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  all and (max-width:412px){
+    body{
+        overflow: hidden;
+    }
+    .img img{
+        width: 250px;
+    }
+    .line1{
+        left: 16%;
+    }
+    .line2{
+        left: 21%;
+    }
+    .img{
+        top: 200px;
+        left: -9.5%;
+    }
+    .main-txt{
+        margin-left: -140px;
+        margin-top: 80px;
+    }
+    .main-txt h1{
+        font-size: 3rem;
+    }
+    .btn{
+        margin-left: 90px;
+        margin-top:90px;
+    }
+    .icon{
+        margin-top: 200px;
+    }
+    .year{
+        margin-left: 15px;
+        margin-top: 220px;
+    }
+    .logo{
+        left: 0%;
+        margin-left: -60px;
+    }
+    .search-m{
+        display: block;
+        margin-left: 260px;
+        margin-top: -55px;
+        width: 21px;
+        height: 21px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media  all and (max-width:1024px){
+    .main-txt h1{
+        font-size: 5rem;
+    }
+    .main-txt {
+        margin-left: 60px;
+    }
+    .img img{
+        width: 400px;
+    }
+    .img{
+        top: 100px;
+        left: 7.5%;
+    }
+    .year{
+        margin-left: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+@media  all and (min-width:1400px){
+    .main-txt {
+        margin-left: 300px;
+    }
+    .img{
+        top: 200px;
+        left: 12.5%;
+    }
+}
+
